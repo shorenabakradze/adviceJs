@@ -63,6 +63,7 @@ button {
 button:hover {
     box-shadow: 0 0 32px -6px hsl(150, 100%, 66%);
   }
+  
   @font-face {
     font-family: 'Inter Regular';
     src: url('Inter-Regular.ttf') format('truetype');

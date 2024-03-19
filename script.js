@@ -8,12 +8,10 @@ const getAdvice = async () => {
         return 'Please try again later.';
     }
 };
-
 const displayRandomAdvice = async () => {
     const adviceElement = document.getElementById('advice');
     adviceElement.textContent = 'Fetching advice...';
     adviceElement.textContent = await getAdvice();
 };
-
 document.getElementById('button').addEventListener('click', displayRandomAdvice);
 displayRandomAdvice();
